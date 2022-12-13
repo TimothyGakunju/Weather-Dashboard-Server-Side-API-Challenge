@@ -113,7 +113,7 @@ $(document).ready(function () {
   function weatherForecast(searchTerm) {
     $.ajax({
       type: "GET",
-      url: "https://api.openweathermap.org/data/2.5/forecast?q=" + searchTerm + "&appid=9f112416334ce37769e5c8683b218a0d&units=imperial",
+        url: "https://api.openweathermap.org/data/2.5/forecast?q=" + searchTerm + "&appid=a43010d04ebba8e9f14b4d211d9bef46",
 
     }).then(function (data) {
       console.log(data);
